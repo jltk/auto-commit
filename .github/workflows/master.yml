@@ -29,12 +29,12 @@ jobs:
       - name: Update Timestamp File
         run: |
           current_time=$(date '+%Y-%m-%d %H:%M:%S')
-          echo "Updated on $current_time" > TIMESTAMP.txt
+          echo "🤖 Updated on $current_time" > TIMESTAMP.txt
 
       - name: Setup Git Configuration
         run: |
-          git config user.email "rxmxdhxni@gmail.com"
-          git config user.name "dante4rt"
+          git config user.email "jltk@pm.me"
+          git config user.name "jltk"
 
       - name: Prepare Commit
         run: |
